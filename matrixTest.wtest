@@ -2,8 +2,8 @@
 
 describe "group of tests " {
 
-  test "test 01" {
-    assert.equals(100, 50+50)
+  test "Si no hay pasajeros, el pasajero al azar tira error" {
+  assert.assert.throwsExceptionWithMessage("La lista es vacia ", { expression })
   }
 
 }
